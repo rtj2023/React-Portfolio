@@ -1,9 +1,10 @@
-function App() {
+import Nav from "./Nav"
+function Header() {
     return (
-      <div className="portfolio">
-
+      <div className="header">
+        <Nav/>
       </div>
     );
   }
 
-  export default App;
+  export default Header;
