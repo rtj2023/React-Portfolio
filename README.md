@@ -1,5 +1,8 @@
 # React-portfolio
 
+## Description
+Portfolio of my web development projects built with react
+
 ## Deployed
 https://celebrated-jelly-6c8502.netlify.app/
 
