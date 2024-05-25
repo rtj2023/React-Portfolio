@@ -1,30 +1,32 @@
+import pwgen from '../assets/generate_pw_snip.png'
+import sched_snip from '../assets/scheduler_snip.png'
 function Projects() {
     return (
       <div className="projects">
         <h1>My Projects</h1>
         <div className="project">
-            <h2 className="project-name">P1</h2>
-            <img src="" alt="P1" />
+            <a href="https://rtj2023.github.io/GeneratePass/">
+                <h2 className="project-name">Password Generator</h2>
+            <img src={pwgen} alt="P1" />
+            </a>
         </div>
         <div className="project">
-            <h2 className="project-name">P2</h2>
-            <img src="" alt="P2" />
+            <a href="https://rtj2023.github.io/Work-Scheduler/">
+                <h2 className="project-name">Scheduler</h2>
+            <img src={sched_snip} alt="P2" />
+            </a>
         </div>
         <div className="project">
-            <h2 className="project-name">P3</h2>
-            <img src="" alt="P3" />
+            <a href="https://simplestepscode.com/javascript-quiz-tutorial/">
+                <h2 className="project-name">Code Quiz</h2>
+            <img src="https://github.com/rtj2023/Code-Quiz/raw/main/assets/screenshot_2.png" alt="P3" />
+            </a>
         </div>
         <div className="project">
-            <h2 className="project-name">P4</h2>
-            <img src="" alt="P4" />
-        </div>
-        <div className="project">
-            <h2 className="project-name">P5</h2>
-            <img src="" alt="P5" />
-        </div>
-        <div className="project">
-            <h2 className="project-name">P6</h2>
-            <img src="" alt="P6" />
+            <a href="https://a-lovely-little-texty-editor-5a594f349d8e.herokuapp.com/">
+                <h2 className="project-name">Text Editor</h2>
+            <img src="https://github.com/rtj2023/Text-editor/raw/main/Assets/01-manifest.png" alt="P4" />
+            </a>
         </div>
       </div>
     );
